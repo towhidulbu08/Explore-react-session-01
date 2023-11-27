@@ -39,6 +39,10 @@ const Bottles = () => {
     addToLS(bottle.id);
   };
 
+  const handleRemoveCart = id=>{
+    
+  }
+
   return (
     <div>
       <h2>Bottles Available:{bottles.length}</h2>
